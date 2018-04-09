@@ -1,0 +1,56 @@
+header {
+  width: 100vw;
+  height: 4rem;
+  background-color: #FFC036;
+}
+
+nav {
+  width: 100vw;
+  height: 2rem;
+  box-shadow: 0rem .1rem .3rem rgba(0, 0, 0, .2);
+  position: relative;
+  z-index: -1;
+  margin: 0 0 2rem 0;
+}
+
+.article-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+article {
+  max-width: 60vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin: 0 0 2rem 0;
+}
+
+p {
+  margin: 0 0 2rem 0;
+  line-height: 1.5rem;
+}
+
+figure {
+  margin: 0 0 2rem 0;
+}
+
+figcaption {
+  font-style: italic;
+  margin: .5rem 0 0 0;
+}
+
+img {
+  width: 100%;
+}
+
+.article-imprint {
+  font-style: italic;
+}
+
